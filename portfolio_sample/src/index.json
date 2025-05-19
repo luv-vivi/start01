@@ -1,0 +1,64 @@
+
+[
+    {
+        "tap":"LINK",
+        "items":[
+            { 
+                "name":"GITHUB", 
+                "src": "https://github.com/" 
+            },
+            { 
+                "name":"BLOG",
+                "src":"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"
+            }
+        ]
+    },
+    {
+        "tap": "MAIN",
+        "pace_img": "about_pace",
+        "highlight_text": "HONG GIL DONG",
+        "row_text": "개발자 홍길동 입니다.",
+        "from": [
+            "사용자를 생각하는 역지사지 마인드",
+            "포기하지 않고 책임감있게 일하는 개발자 입니다.",
+            "자기소개를 적어주세요"
+        ]
+    },
+    { 
+        "tap": "ABOUT",
+        "pace_img": "about_pace",
+        "profile":[
+            { "tag": "NAME", "str": "홍길동" },
+            { "tag": "BIRTH DAY", "str":"1443-01-01" },
+            { "tag": "EMAIL", "str":"honggil@naver.com"},
+            { "tag": "ADDRESS", "str":"전라도, 아곡리"},
+            { "tag": "EDUCATION", "str":"한양 사숙, 의적과"},
+            { "tag": "TEL", "str":"000-0000-0000"}
+        ],
+        "qna": [
+            { 
+                "q":"첫번째 질문입니다. 질문을 입력해주세요.", 
+                "a":"첫번째 질문의 응답입니다. 응답을 입력해주세요."
+            },
+            { 
+                "q":"두번째 질문입니다. 질문을 입력해주세요.", 
+                "a":"두번째 질문의 응답입니다. 응답을 입력해주세요."
+            }
+        ],
+        "career": [
+            { 
+                "company":"회사명을 입력", 
+                "date":{
+                    "start":"2025-05-14",
+                    "end": "2025-06-14"
+                },
+                "work":[
+                    "백엔드로 무슨 업무를 했습니다.",
+                    "프론트엔드로 무슨 업무를 했습니다"
+                ] 
+            }
+        ]
+    },
+    { "tap":"STACK" },
+    { "tap":"PORTFOLIO" }
+]

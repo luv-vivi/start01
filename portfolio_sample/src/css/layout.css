@@ -1,0 +1,68 @@
+header {
+    position: sticky;
+    gap: 20px;
+    top: 0;
+    width: calc( 100% - 20px );
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+header button {
+    /*버튼 형태 지우기*/
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--font-color);
+    height: 25px;
+}
+
+header button:hover p {
+    color: white;
+}
+
+header button:hover span{
+    border-bottom: 40px solid var(--background-1);
+}
+header button p {
+    z-index: 100;
+    transition: all 0.1s ease-in-out;
+}
+header button span {
+    position: absolute;
+    bottom: 0;    
+    width: calc( 100% + 10px );
+    border-bottom: 5px solid var(--background-1);;
+    transition: all 0.2s ease-in-out;
+    z-index: 99;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: auto;
+    left: -10px;
+}
+header div span {
+    margin-left: auto;
+    border-bottom: 5px solid var(--highlight-color);
+}
+header div button:hover span {
+    margin-left: auto;
+    border-bottom: 40px solid var(--highlight-color);
+}
+
+main {
+    min-width: 700px;
+    min-height: calc( 100vh - 40px );
+}

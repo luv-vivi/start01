@@ -1,0 +1,128 @@
+.about .profile {   
+    display: flex;
+    gap: 10px; 
+}
+
+.about .profile .text p {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background: var(--highlight-color-1-a);
+    border: 2px solid var(--highlight-color-1);
+    color: var(--font-color);
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.about .profile .text p small {
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: var(--highlight-color-1);
+    border: 1px solid var(--highlight-color-1);
+}
+
+.about .profile .pace div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    gap: 5px;
+    color: #ffffff;
+}
+
+.about .profile .pace div a svg {
+    width: 35px;
+    height: 35px;
+}
+
+.about .qna{
+    display: flex;   
+    flex-direction: column;
+}
+
+.about .qna li {
+    margin-bottom: 10px;
+    border: 1px solid var(--highlight-color-2);
+}
+
+.about .qna h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 1000;
+    color: var(--highlight-color-2);
+}
+
+.about .qna li h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 20px;
+    background: var(--highlight-color-2);
+}
+
+.about .qna li p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    background: var(--highlight-color-2-a);
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+}
+
+.career li {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--highlight-color-1);
+    background: var(--highlight-color-1-a);
+    line-height: 1.2;
+}
+
+.career li h4{
+    font-size: 1.4rem;
+    background: var(--highlight-color-1);
+    padding: 10px;
+    color: var(--font-color);
+    font-weight: 800;
+    display: block;
+}
+
+.career h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 1000;
+    color: var(--highlight-color-1);
+}
+
+.career li h4 small {
+    font-size: 0.7em;
+}
+
+.career li div {
+    display: flex;
+    flex-direction: column;
+}
+.career li div p {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+
+}
+
+.career li div p:first-of-type {
+    margin-top: 10px;
+}
+
+.career li div p:last-of-type {
+    margin-bottom: 10px;
+}
+
